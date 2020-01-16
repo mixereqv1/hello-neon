@@ -3,6 +3,7 @@
     <Header />
     <Info />
     <Gallery />
+    <Panel />
   </div>
 </template>
 
@@ -10,6 +11,7 @@
 import Header from './components/Header.vue';
 import Info from './components/Info.vue';
 import Gallery from './components/Gallery.vue';
+import Panel from './components/Panel.vue';
 
 export default {
   name: 'App',
@@ -17,6 +19,7 @@ export default {
     Header,
     Info,
     Gallery,
+    Panel,
 
   },
 };

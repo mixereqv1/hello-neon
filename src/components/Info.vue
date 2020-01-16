@@ -40,7 +40,6 @@ export default {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    /* height: 100vh; */
     width: 90%;
     margin: 0 auto;
 
