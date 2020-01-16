@@ -2,18 +2,21 @@
   <div class="wrapper">
     <Header />
     <Info />
+    <Gallery />
   </div>
 </template>
 
 <script>
 import Header from './components/Header.vue';
 import Info from './components/Info.vue';
+import Gallery from './components/Gallery.vue';
 
 export default {
   name: 'App',
   components: {
     Header,
     Info,
+    Gallery,
 
   },
 };
