@@ -6,6 +6,7 @@
     <Panel />
     <div class="servicesWithContact">
       <Services />
+      <Contact />
     </div>
   </div>
 </template>
@@ -16,6 +17,7 @@ import Info from './components/Info.vue';
 import Gallery from './components/Gallery.vue';
 import Panel from './components/Panel.vue';
 import Services from './components/Services.vue';
+import Contact from './components/Contact.vue';
 
 export default {
   name: 'App',
@@ -25,6 +27,7 @@ export default {
     Gallery,
     Panel,
     Services,
+    Contact,
 
   },
 };
